@@ -1,0 +1,140 @@
+{
+  "fixtures": [
+    {
+      "id": "notice_01_revocation",
+      "format": "txt",
+      "source_name": "Official Gazette Notice",
+      "source_url": "https://example.invalid/bimschg/revocation-01",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://e-pflicht.ub.uni-duesseldorf.de/download/pdf/194193"
+    },
+    {
+      "id": "notice_02_revocation_alt",
+      "format": "txt",
+      "source_name": "State Portal Notice",
+      "source_url": "https://example.invalid/bimschg/revocation-02",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://e-pflicht.ub.uni-duesseldorf.de/download/pdf/194193"
+    },
+    {
+      "id": "notice_03_lapse_18",
+      "format": "txt",
+      "source_name": "Legal Status Bulletin",
+      "source_url": "https://example.invalid/bimschg/lapse-03",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.gesetze-im-internet.de/bimschg/__18.html"
+    },
+    {
+      "id": "notice_04_waiver",
+      "format": "txt",
+      "source_name": "Court Reference Notice",
+      "source_url": "https://example.invalid/bimschg/waiver-04",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://app.omnilex.ai/de/sources/court-decision/de-rii--wbre410019272/bverwg-2012-11-15-7-c-1512"
+    },
+    {
+      "id": "notice_05_prohibition_20",
+      "format": "txt",
+      "source_name": "Official Order Bulletin",
+      "source_url": "https://example.invalid/bimschg/prohibition-05",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de"
+    },
+    {
+      "id": "notice_06_decom_15",
+      "format": "txt",
+      "source_name": "Municipal Environmental Notice",
+      "source_url": "https://example.invalid/bimschg/decom-06",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.dresden.de/media/pdf/umwelt/Vdr86_020_Betriebseinstellung-BImSchG.pdf"
+    },
+    {
+      "id": "notice_07_decom_intent",
+      "format": "txt",
+      "source_name": "Municipal Portal Notice",
+      "source_url": "https://example.invalid/bimschg/decom-07",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.dresden.de/media/pdf/umwelt/Vdr86_020_Betriebseinstellung-BImSchG.pdf"
+    },
+    {
+      "id": "notice_08_neg_control_approval",
+      "format": "txt",
+      "source_name": "District Government Announcement",
+      "source_url": "https://example.invalid/bimschg/approval-08",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.bra.nrw.de/-5485"
+    },
+    {
+      "id": "notice_09_neg_control_other",
+      "format": "txt",
+      "source_name": "Local Register",
+      "source_url": "https://example.invalid/bimschg/other-09",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.bra.nrw.de/-5485"
+    },
+    {
+      "id": "notice_10_neg_control_retraction",
+      "format": "txt",
+      "source_name": "Correction Notice",
+      "source_url": "https://example.invalid/bimschg/retraction-10",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://app.omnilex.ai"
+    },
+    {
+      "id": "notice_11_bad_missing_date",
+      "format": "txt",
+      "source_name": "Faulty Notice",
+      "source_url": "https://example.invalid/bimschg/bad-11",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de"
+    },
+    {
+      "id": "notice_12_bad_missing_operator",
+      "format": "txt",
+      "source_name": "Faulty Notice",
+      "source_url": "https://example.invalid/bimschg/bad-12",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de"
+    },
+    {
+      "id": "notice_13_bad_impossible_date",
+      "format": "txt",
+      "source_name": "Faulty Notice",
+      "source_url": "https://example.invalid/bimschg/bad-13",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de"
+    },
+    {
+      "id": "notice_14_bad_mojibake",
+      "format": "txt",
+      "source_name": "Faulty Encoding Notice",
+      "source_url": "https://example.invalid/bimschg/bad-14",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://e-pflicht.ub.uni-duesseldorf.de"
+    },
+    {
+      "id": "notice_15_duplicate_variant",
+      "format": "txt",
+      "source_name": "Variant Name Notice",
+      "source_url": "https://example.invalid/bimschg/bad-15",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://e-pflicht.ub.uni-duesseldorf.de"
+    },
+    {
+      "id": "notice_16_duplicate_source_a",
+      "format": "txt",
+      "source_name": "Authority Portal",
+      "source_url": "https://example.invalid/bimschg/dup-A",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de"
+    },
+    {
+      "id": "notice_17_duplicate_source_uvp",
+      "format": "txt",
+      "source_name": "UVP Portal Mirror",
+      "source_url": "https://example.invalid/bimschg/dup-UVP",
+      "fetched_at": "2026-04-01T10:00:00Z",
+      "inspired_by": "https://www.uvp-verbund.de/documents-ige-ng/igc_by/A2C552C3-E747-4F9C-9BA3-0BB5C5A84CC4/Bekanntmachung%20UVP%20Hartinger.doc"
+    }
+  ]
+}
