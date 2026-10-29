@@ -17,14 +17,14 @@ iris-corp-shutdown/
 │   └── manifest.json         # Provenance registry (source URLs, legal refs, metadata)
 │
 ├── src/
-│   └── parser.py             # Core ETL parser, date normalizer, and classification engine
+│   └── parser.py             
 │
 ├── tests/
-│   └── test_parser.py        # Automated test suite (pytest) covering signals and error handling
+│   └── test_parser.py        
 │
-├── Dockerfile                # Containerization recipe for reproducible execution
-├── data_quality_report.md    # Summary report detailing quarantined records, signals, & SQL checks
-└── README.md                 # Project documentation
+├── Dockerfile                
+├── data_quality_report.md    
+└── README.md                 
 ```
 
 ## 3. Data Provenance & Handling Negative Controls
